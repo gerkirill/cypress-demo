@@ -1,0 +1,67 @@
+.tablo {
+  margin: 0 40%;
+  padding: 10px;
+  align: center;
+  color:green;
+  text-align: center;
+  border:4px double green;
+  font-size: 40px;
+  background-color: black;
+  width: 300px;
+  height: 50px;
+  box-shadow: -4px 4px 3px #999999;
+  
+   animation-name: fadeIn;
+   animation-duration: 3s;
+}
+
+.buttonsPanel {
+  margin: 15px 40%;
+  width: 300px;
+  padding: 10px 14px;
+}
+
+.btn {
+  font-style: italic;
+  padding: 0;
+  cursor: pointer;
+  font-size: 25px;
+  width: 49%;
+  border-radius: 15px;
+  box-shadow: -4px 4px 3px #999999;
+}
+
+.tablo:hover {
+  font-size: 50px;
+  
+}
+
+ol {
+  margin: 0 39.5%;
+  width: 280px;  
+}
+
+li {
+  
+  padding: 5px 5px 5px 5px;
+  color:#000;}
+
+ol li:nth-child(even){background: #dfdfdf;}
+
+.strike{text-decoration: line-through;}
+
+li:hover{
+  cursor: pointer;
+  transform: scale(1.2)
+ }
+
+@keyframes fadeIn{  from {    opacity: 0;  }
+  to {    opacity: 1;  }
+}
+
+@keyframes rotation{  from {    transform: rotate(0) scale(0);}
+  to {    transform: rotate(360deg) scale(1);}
+}
+
+
+
